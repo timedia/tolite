@@ -1,4 +1,4 @@
-package tolite
+package tolitelib
 
 var GenerateConfHeader = generateConfHeader
 var GenerateUser = generateUser

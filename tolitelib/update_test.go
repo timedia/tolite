@@ -1,4 +1,4 @@
-package tolite_test
+package tolitelib_test
 
 import (
 	"fmt"

@@ -13,5 +13,5 @@ var (
 
 // String returns version string
 func String() string {
-	return fmt.Sprintf("k8sec version %s, build %s", Version, Revision)
+	return fmt.Sprintf("tolite version %s, build %s", Version, Revision)
 }

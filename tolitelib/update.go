@@ -1,4 +1,4 @@
-package tolite
+package tolitelib
 
 import (
 	"fmt"
@@ -39,15 +39,12 @@ func ParseYaml(in []byte) (Data, error) {
 		u := User{}
 		if e, ok := user["email"].(string); ok {
 			u.Email = e
-			fmt.Println("email!", e)
 		}
 		if k, ok := user["keys"].([]interface{}); ok {
 			u.Keys = k
-			fmt.Println("keys!", k)
 		}
 		if k, ok := user["keys"].(string); ok {
 			u.Keys = k
-			fmt.Println("keys!", k)
 		}
 		users[key.(string)] = u
 	}
