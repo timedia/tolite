@@ -6,9 +6,8 @@ import (
 	"log"
 	"os"
 
-	"./tolitelib"
-	"./version"
-
+	"github.com/timedia/tolite/tolitelib"
+	"github.com/timedia/tolite/version"
 	"github.com/urfave/cli"
 )
 
