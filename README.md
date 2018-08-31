@@ -2,7 +2,28 @@
 
 gitolite.conf を管理するツール
 
+## TODO
 
+サブコマンドの完成状況
+
+- [x] update
+- [ ] users
+  - [ ] add
+  - [ ] update
+  - [ ] list
+  - [ ] delete
+- [ ] groups
+  - [ ] add
+  - [ ] update
+  - [ ] list
+  - [ ] delete
+- [ ] repos
+  - [ ] add
+  - [ ] update
+  - [ ] list
+  - [ ] delete
+- etc
+  - [ ] config.yml
 
 ## 仕様
 
