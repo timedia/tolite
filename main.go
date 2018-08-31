@@ -6,18 +6,17 @@ import (
 	"log"
 	"os"
 
+	"./tolitelib"
+	"./version"
+
 	"github.com/urfave/cli"
-	"matilda.basement.timedia.co.jp/tolite/tolitelib"
-	"matilda.basement.timedia.co.jp/tolite/version"
 )
 
 func main() {
 	app := cli.NewApp()
-
 	app.Name = "Tolite"
 	app.Usage = "gitolite.conf management tool"
 	app.Version = version.String()
-
 	app.Commands = []cli.Command{
 		{
 			Name:  "convert",
