@@ -33,7 +33,7 @@ gitolite.conf を管理するツール
 
 `tolite users add <user name> [-e email] [-k key...] [-k key=public key...] [--key-file key=public key file...]`
 
-`tolite users [--update-name | -n new user name] [-e email] [--delete-email] [-k key...] [--delete-key key...] <user name>`
+`tolite users update [--update-name | -n new user name] [-e email] [--delete-email] [-k key...] [--delete-key key...] <user name>`
 
 `--delete-key` はそのうちキーのファイルも連動して消えるようにする
 
