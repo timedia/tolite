@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "."
+	. "github.com/timedia/tolite/tolitelib"
 )
 
 const yamlData = `
