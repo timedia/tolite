@@ -1,5 +1,7 @@
 # Tolite
 
+[![Build Status](https://travis-ci.com/timedia/tolite.svg?branch=master)](https://travis-ci.com/timedia/tolite)
+
 gitolite.conf を管理するツール
 
 ## TODO
